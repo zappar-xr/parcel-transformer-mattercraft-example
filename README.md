@@ -22,9 +22,9 @@ npm i --save-dev parcel @zappar/parcel-transformer-mattercraft
 
 ## Installation
 
-1 - Clone or download this example project.
-2 - Navigate to the project's root directory.
-3 - Install the necessary dependencies:
+1. Clone or download this example project.
+2. Navigate to the project's root directory.
+3. Install the necessary dependencies:
 
 ```bash
 npm install
