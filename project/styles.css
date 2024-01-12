@@ -1,0 +1,45 @@
+body {
+
+    font-family: "Roboto", "Helvetica", sans-serif;
+    color: white;
+
+}
+
+/* Main Card style */
+.card {
+    background-color: #F72648;
+    /* Change these if you want a gradient background */
+    background-image: linear-gradient(black, black);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+/* Heading Style */
+.card__title {
+    color: white;
+}
+
+/* Card footer style */
+.card_footer {
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Button style */
+.button{
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+/* Update for button hover state */
+.button:hover {
+    background-color: white; 
+    color: black;
+    border-style: solid;
+    border-color: black;
+}

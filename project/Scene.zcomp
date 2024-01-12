@@ -1,0 +1,827 @@
+{
+	"animation": {
+		"clips": {
+			"6c7f5a6fbaf64992b974a0ebaef848aa": {
+				"defaultFadeParameters": {
+					"easing": "easeIn"
+				},
+				"id": "6c7f5a6fbaf64992b974a0ebaef848aa",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "On",
+				"order": "a2",
+				"scriptName": "On",
+				"tracks": {
+					"3e280babcfe64e8391690418d6e759d3": {
+						"blend": "overlay",
+						"entityID": "32271ea950074a9f97ad9283d9d42f4a",
+						"id": "3e280babcfe64e8391690418d6e759d3",
+						"keyframes": {
+							"19567f3787b5459297997ed6284e72bd": {
+								"id": "19567f3787b5459297997ed6284e72bd",
+								"t": 0,
+								"v": true
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"visible"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"b6f0f230f9fd4222aed8f968f7d071d0": {
+						"blend": "overlay",
+						"entityID": "32271ea950074a9f97ad9283d9d42f4a",
+						"id": "b6f0f230f9fd4222aed8f968f7d071d0",
+						"keyframes": {
+							"172c3743ed2b4e789344b244aee42b0e": {
+								"id": "172c3743ed2b4e789344b244aee42b0e",
+								"t": 0,
+								"v": true
+							}
+						},
+						"order": "a0",
+						"property": [
+							"enabled"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"dbfbb5080f3c42ef969ef55c382916e3": {
+				"clips": {
+					"8a076e501f9b479f9f17d6ef1011f615": {
+						"clipId": "6c7f5a6fbaf64992b974a0ebaef848aa",
+						"id": "8a076e501f9b479f9f17d6ef1011f615",
+						"order": "a2",
+						"scriptName": "On0"
+					}
+				},
+				"defaultClip": "8a076e501f9b479f9f17d6ef1011f615",
+				"enabled": true,
+				"id": "dbfbb5080f3c42ef969ef55c382916e3",
+				"name": "UI",
+				"order": "a2",
+				"scriptName": "UI"
+			}
+		}
+	},
+	"behaviors": {
+		"252f3d14cc4448b8a2be9c512cf8c67e": {
+			"id": "252f3d14cc4448b8a2be9c512cf8c67e",
+			"label": "SetLayerOff",
+			"parent": {
+				"id": "b6ff047199cb42b1a998fc271d129e44",
+				"order": "a0",
+				"scriptName": "SetLayerOff"
+			},
+			"type": "@zcomponent/core/lib/behaviors/SetLayerOff#SetLayerOff"
+		},
+		"ba785d4eb20f49479ab05479f971f2a3": {
+			"id": "ba785d4eb20f49479ab05479f971f2a3",
+			"label": "MouseOrbit",
+			"parent": {
+				"id": "37e06ac116b0421698ef7a3df6802e38",
+				"order": "a0",
+				"scriptName": "MouseOrbit"
+			},
+			"type": "@zcomponent/three/lib/behaviors/MouseOrbit#MouseOrbit"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Blob.glb": {
+			"b8c55a306fc14ba79b884be4c7ae4cb4": true
+		},
+		"Button": {
+			"b6ff047199cb42b1a998fc271d129e44": true
+		},
+		"CSS": {
+			"077ba7407b4742c4984406ef5ade482f": true
+		},
+		"Card": {
+			"ea2f4196123646ebaafbb17faafd9752": true
+		},
+		"Card Footer": {
+			"d0f0e3dd1c414a92a7252ceb39fbb0c4": true
+		},
+		"Card Header": {
+			"3f81004d2c364baca896f82e6bbf70ac": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Group": {
+			"root": true
+		},
+		"HTML": {
+			"32271ea950074a9f97ad9283d9d42f4a": true
+		},
+		"Heading": {
+			"fb6c765b23ab4de792b7f083df8a29c7": true
+		},
+		"Logo Image": {
+			"30a2e16cd3f94aa9bd7138cf9a5a2023": true
+		},
+		"Paragraph": {
+			"9f29866c4d5443429d1bcb5000d7aa8d": true
+		},
+		"PerspectiveCamera": {
+			"37e06ac116b0421698ef7a3df6802e38": true
+		},
+		"ShadowPlane": {
+			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		},
+		"Shape Image": {
+			"a12fb448c1ce4293b83d66a2b553f9f0": true
+		},
+		"SkyEnvironment": {
+			"71d7a233e933422a9fb54003bfe120f5": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Blob_glb": {
+			"b8c55a306fc14ba79b884be4c7ae4cb4": true
+		},
+		"Button": {
+			"b6ff047199cb42b1a998fc271d129e44": true
+		},
+		"CSS": {
+			"077ba7407b4742c4984406ef5ade482f": true
+		},
+		"Card": {
+			"ea2f4196123646ebaafbb17faafd9752": true
+		},
+		"Card_Footer": {
+			"d0f0e3dd1c414a92a7252ceb39fbb0c4": true
+		},
+		"Card_Header": {
+			"3f81004d2c364baca896f82e6bbf70ac": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"HTML": {
+			"32271ea950074a9f97ad9283d9d42f4a": true
+		},
+		"Heading": {
+			"fb6c765b23ab4de792b7f083df8a29c7": true
+		},
+		"Logo_Image": {
+			"30a2e16cd3f94aa9bd7138cf9a5a2023": true
+		},
+		"Paragraph": {
+			"9f29866c4d5443429d1bcb5000d7aa8d": true
+		},
+		"PerspectiveCamera": {
+			"37e06ac116b0421698ef7a3df6802e38": true
+		},
+		"ShadowPlane": {
+			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		},
+		"Shape_Image": {
+			"a12fb448c1ce4293b83d66a2b553f9f0": true
+		},
+		"SkyEnvironment": {
+			"71d7a233e933422a9fb54003bfe120f5": true
+		}
+	},
+	"entityConstructorProps": {
+		"077ba7407b4742c4984406ef5ade482f": {
+			"source": "file://./styles.css"
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"252f3d14cc4448b8a2be9c512cf8c67e": {
+			"event": "onClick"
+		},
+		"30a2e16cd3f94aa9bd7138cf9a5a2023": {
+			"src": "file://./Zapworks Logo.png"
+		},
+		"32271ea950074a9f97ad9283d9d42f4a": {
+		},
+		"37e06ac116b0421698ef7a3df6802e38": {
+		},
+		"3f81004d2c364baca896f82e6bbf70ac": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"71d7a233e933422a9fb54003bfe120f5": {
+			"showAtRunTime": true
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"9f29866c4d5443429d1bcb5000d7aa8d": {
+		},
+		"a12fb448c1ce4293b83d66a2b553f9f0": {
+			"src": "file://./Shape.png"
+		},
+		"b6ff047199cb42b1a998fc271d129e44": {
+		},
+		"b8c55a306fc14ba79b884be4c7ae4cb4": {
+			"source": "file://./Blob.glb"
+		},
+		"ba785d4eb20f49479ab05479f971f2a3": {
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+		},
+		"d0f0e3dd1c414a92a7252ceb39fbb0c4": {
+		},
+		"ea2f4196123646ebaafbb17faafd9752": {
+		},
+		"fb6c765b23ab4de792b7f083df8a29c7": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"077ba7407b4742c4984406ef5ade482f": {
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"252f3d14cc4448b8a2be9c512cf8c67e": {
+			"layer": "dbfbb5080f3c42ef969ef55c382916e3"
+		},
+		"30a2e16cd3f94aa9bd7138cf9a5a2023": {
+			"position": "relative",
+			"width": [
+				50,
+				"px"
+			]
+		},
+		"32271ea950074a9f97ad9283d9d42f4a": {
+			"visible": false
+		},
+		"37e06ac116b0421698ef7a3df6802e38": {
+			"position": [
+				0,
+				1.9547513762538151,
+				4.569051203602898
+			],
+			"rotation": [
+				-0.16465354131916174,
+				0,
+				0
+			]
+		},
+		"3f81004d2c364baca896f82e6bbf70ac": {
+			"classList": [
+				"card__header"
+			],
+			"flexDirection": "row",
+			"id": "",
+			"paddingBottom": [
+				200,
+				"px"
+			],
+			"paddingLeft": [
+				30,
+				"px"
+			],
+			"paddingRight": [
+				30,
+				"px"
+			],
+			"paddingTop": [
+				30,
+				"px"
+			],
+			"position": "relative"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"71d7a233e933422a9fb54003bfe120f5": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"9f29866c4d5443429d1bcb5000d7aa8d": {
+			"classList": [
+				"card__subtitle"
+			],
+			"innerText": "Mattercraft is a fully integrated, browser based 3D content development environment perfected for building interactive experiences for the web. ",
+			"position": "relative"
+		},
+		"a12fb448c1ce4293b83d66a2b553f9f0": {
+			"innerText": "",
+			"left": [
+				50,
+				"px"
+			],
+			"marginTop": [
+				20,
+				"px"
+			],
+			"position": "fixed",
+			"width": [
+				200,
+				"px"
+			]
+		},
+		"b6ff047199cb42b1a998fc271d129e44": {
+			"classList": [
+				"button"
+			],
+			"height": [
+				50,
+				"px"
+			],
+			"id": "",
+			"innerText": "CLOSE",
+			"left": [
+				17,
+				"%"
+			],
+			"marginBottom": [
+				20,
+				"px"
+			],
+			"marginTop": [
+				20,
+				"px"
+			],
+			"paddingBottom": [
+				5,
+				"px"
+			],
+			"paddingLeft": [
+				10,
+				"px"
+			],
+			"paddingRight": [
+				10,
+				"px"
+			],
+			"paddingTop": [
+				5,
+				"px"
+			],
+			"position": "relative",
+			"width": [
+				200,
+				"px"
+			]
+		},
+		"b8c55a306fc14ba79b884be4c7ae4cb4": {
+			"scale": [
+				21.44092266639992,
+				21.44092266639992,
+				21.44092266639992
+			]
+		},
+		"ba785d4eb20f49479ab05479f971f2a3": {
+			"initialTarget": [
+				0,
+				1.5,
+				0
+			]
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+		},
+		"d0f0e3dd1c414a92a7252ceb39fbb0c4": {
+			"classList": [
+				"card_footer"
+			],
+			"marginBottom": [
+				-1,
+				"px"
+			],
+			"position": "static"
+		},
+		"ea2f4196123646ebaafbb17faafd9752": {
+			"classList": [
+				"card"
+			],
+			"flexDirection": "row",
+			"position": "static",
+			"width": [
+				300,
+				"px"
+			]
+		},
+		"fb6c765b23ab4de792b7f083df8a29c7": {
+			"classList": [
+				"card__title "
+			],
+			"innerText": "Mattercraft"
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"077ba7407b4742c4984406ef5ade482f": {
+			"id": "077ba7407b4742c4984406ef5ade482f",
+			"label": "CSS",
+			"parent": {
+				"id": "32271ea950074a9f97ad9283d9d42f4a",
+				"order": "Zy"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"30a2e16cd3f94aa9bd7138cf9a5a2023": {
+			"id": "30a2e16cd3f94aa9bd7138cf9a5a2023",
+			"label": "Logo Image",
+			"parent": {
+				"id": "3f81004d2c364baca896f82e6bbf70ac",
+				"order": "a2"
+			},
+			"scriptName": "Logo_Image",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"32271ea950074a9f97ad9283d9d42f4a": {
+			"id": "32271ea950074a9f97ad9283d9d42f4a",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"37e06ac116b0421698ef7a3df6802e38": {
+			"id": "37e06ac116b0421698ef7a3df6802e38",
+			"label": "PerspectiveCamera",
+			"parent": {
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "PerspectiveCamera",
+			"type": "@zcomponent/three/lib/components/cameras/PerspectiveCamera#PerspectiveCamera"
+		},
+		"3f81004d2c364baca896f82e6bbf70ac": {
+			"id": "3f81004d2c364baca896f82e6bbf70ac",
+			"label": "Card Header",
+			"parent": {
+				"id": "ea2f4196123646ebaafbb17faafd9752",
+				"order": "a0"
+			},
+			"scriptName": "Card_Header",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a3"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"71d7a233e933422a9fb54003bfe120f5": {
+			"id": "71d7a233e933422a9fb54003bfe120f5",
+			"label": "SkyEnvironment",
+			"parent": {
+				"id": "root",
+				"order": "Zz8"
+			},
+			"scriptName": "SkyEnvironment",
+			"type": "@zcomponent/three/lib/components/environments/SkyEnvironment#SkyEnvironment"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a2"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"9f29866c4d5443429d1bcb5000d7aa8d": {
+			"id": "9f29866c4d5443429d1bcb5000d7aa8d",
+			"label": "Paragraph",
+			"parent": {
+				"id": "3f81004d2c364baca896f82e6bbf70ac",
+				"order": "a5"
+			},
+			"scriptName": "Paragraph",
+			"type": "@zcomponent/html/lib/span#Span"
+		},
+		"a12fb448c1ce4293b83d66a2b553f9f0": {
+			"id": "a12fb448c1ce4293b83d66a2b553f9f0",
+			"label": "Shape Image",
+			"parent": {
+				"id": "3f81004d2c364baca896f82e6bbf70ac",
+				"order": "a6"
+			},
+			"scriptName": "Shape_Image",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"b6ff047199cb42b1a998fc271d129e44": {
+			"id": "b6ff047199cb42b1a998fc271d129e44",
+			"label": "Button",
+			"parent": {
+				"id": "d0f0e3dd1c414a92a7252ceb39fbb0c4",
+				"order": "a1"
+			},
+			"scriptName": "Button",
+			"type": "@zcomponent/html/lib/button#Button"
+		},
+		"b8c55a306fc14ba79b884be4c7ae4cb4": {
+			"id": "b8c55a306fc14ba79b884be4c7ae4cb4",
+			"label": "Blob.glb",
+			"parent": {
+				"id": "root",
+				"order": "ZzG"
+			},
+			"scriptName": "Blob_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
+			"label": "ShadowPlane",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a0"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"d0f0e3dd1c414a92a7252ceb39fbb0c4": {
+			"id": "d0f0e3dd1c414a92a7252ceb39fbb0c4",
+			"label": "Card Footer",
+			"parent": {
+				"id": "ea2f4196123646ebaafbb17faafd9752",
+				"order": "a1"
+			},
+			"scriptName": "Card_Footer",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"ea2f4196123646ebaafbb17faafd9752": {
+			"id": "ea2f4196123646ebaafbb17faafd9752",
+			"label": "Card",
+			"parent": {
+				"id": "32271ea950074a9f97ad9283d9d42f4a",
+				"order": "Zy8"
+			},
+			"scriptName": "Card",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"fb6c765b23ab4de792b7f083df8a29c7": {
+			"id": "fb6c765b23ab4de792b7f083df8a29c7",
+			"label": "Heading",
+			"parent": {
+				"id": "3f81004d2c364baca896f82e6bbf70ac",
+				"order": "a4"
+			},
+			"scriptName": "Heading",
+			"type": "@zcomponent/html/lib/headings#H1"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
